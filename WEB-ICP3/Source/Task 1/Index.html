@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>RPS_Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="mainBody">
+<div>
+    <p>
+        <<h2 align="center"><em><br><br><br><br>Rock Paper Scissors!!! Shoot...</em></h2>
+
+    </p>
+</div>
+<div>
+    <div class="img"  align="center">
+        <br><br><br><br><br>
+        <img width="250px" height="250px" src="Images/Rock image.png" id="rock" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img width="250px" height="250px" src="Images/Paper image.png" id="paper" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img width="250px" height="250px" src="Images/Scissor image.png" id="scissors" >
+
+    </div>
+    <div class="score-box">
+    <div class="score-board">
+        <div class="player">
+            <h4> Your score =  0 </h4>
+            <script>
+                document.getElementById("score-box").value.innerHTML = "yourscore";
+            </script>
+            <div class="score-box">
+            <h4>Computer score = 2</h4>
+                <script>
+                    document.getElementById("score-box").innerHTML = "scoreComp";
+                </script>
+            <div class="score-box">
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>
